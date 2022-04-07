@@ -1,0 +1,83 @@
+@charset "UTF-8";
+
+*{
+   margin: 0px;
+   padding: 0px;
+   text-align: justify;
+}
+
+header{
+    background-color: black;
+}
+
+header > h1{
+    color: white;
+    text-align: center;
+    padding: 15px 1px 1px 1px ;
+    margin: 0px 1px 1px 1px;
+}
+
+body{
+    background-color: rgb(29, 29, 29);
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+header > nav{
+    padding: 20px 1px 10px 1px;
+    margin: 1px 1px 1px 1px;
+}
+
+header > nav > a {
+    text-decoration: none;
+    color: aliceblue;
+    font-weight: bold;
+    border-radius: 5px;
+    margin: 1% -2% 1% 1%;
+    padding: 1% 1% 0.5% 1%;
+}
+
+header > nav > a:hover{
+    background-color: rgba(255, 255, 255, 0.322);
+}
+main{
+ 
+}
+main section p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+main section h1{
+    font-weight: 500;
+    font-size: 35px;
+    margin-bottom: 10px;
+ 
+}
+main section a{
+    text-decoration: none;
+    color: black;
+}
+main section{
+    background-color: white;
+    padding: 2% 30% 2% 2%;
+    margin: 7% 1px 7% 1%;
+    border-radius: 8px;
+}
+main section picture img{
+    width: 45%;
+    height: 30%;
+    padding: 2% 1% 0% 109.8%;
+    margin: -31% 1% -8% -10%;
+    display: block;
+}
+em{
+    padding: 1% 1% 1% 1%;
+    margin: 1% 1% 1% 1%;
+}
+article{
+    padding: 1% 1% 1% 1%;
+    margin: 1% 1% 1% 1%;
+}
+
+
+
+

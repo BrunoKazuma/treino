@@ -1,0 +1,49 @@
+@charset "UTF-8";
+
+body{
+    background-image:linear-gradient(90deg,lightskyblue, SlateBlue, lavender);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+img{
+   position: absolute;
+   top: 3px;
+
+}
+div{
+    background-color: rgba(0, 0, 0, 0.9);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-40%);
+    padding: 80px;
+    border-radius: 20px;
+    color: rgb(183, 178, 247);
+}
+input
+{
+    padding: 10px;
+    border: none;
+    outline: none;
+    font-size: 14px;
+}
+button{
+    background-color: rgb(118, 151, 221);
+    border: none;
+    padding: 10px;
+    width: 100%;
+    border-radius: 10px;
+    color: rgb(255, 255, 255);
+    font-size:14px;
+    cursor: pointer;
+} 
+
+button:hover {
+background-color:rgb(55, 55, 230) ;
+}
+
+
+
+
+      
