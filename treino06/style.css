@@ -1,0 +1,60 @@
+@charset "UTF-8";
+
+body{
+    background-image: url(https://image.winudf.com/v2/image1/Y29tLmJhY2tncm91bmRzLmFuZC53YWxscGFwZXJzLmZyZWUuc3BhY2Vfc2NyZWVuXzIzXzE1NzI1Mjk4MjBfMDQ5/screen-23.jpg?fakeurl=1&type=.jpg);
+}
+div{
+    margin: auto;
+    margin-top: 30px;
+}
+
+.netuno{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;background-image: linear-gradient(180deg ,rgb(61, 61, 255), rgb(77, 77, 255), rgb(80, 80, 180));
+}
+.urano{ 
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;background-image: linear-gradient(180deg ,rgb(45, 255, 150), rgb(44, 202, 136), rgb(40, 146, 102));
+}
+.saturno{
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;background-image: linear-gradient(180deg ,rgb(194, 159, 62), rgb(218, 174, 30), rgb(134, 88, 35));
+}
+.jupiter{
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;background-image: linear-gradient(180deg ,rgb(194, 159, 62), rgb(150, 80, 0), rgb(83, 58, 30));
+}
+.marte{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;background-image: linear-gradient(180deg ,rgb(201, 82, 3), rgb(134, 38, 0), rgb(68, 25, 0));
+}
+.terra{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;background-image: linear-gradient(180deg ,rgb(0, 46, 172), rgb(0, 87, 218), rgb(134, 146, 255));
+
+}
+.venus{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;background-image: linear-gradient(180deg ,rgb(61, 45, 0), rgb(107, 48, 0), rgb(134, 88, 35));
+
+}
+.mercurio{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;background-image: linear-gradient(180deg ,rgb(136, 120, 78), rgb(88, 80, 53), rgb(255, 208, 155));
+
+}
+.sol{
+    width: 500px;
+    height: 500px;
+    border-radius: 50% 50% 50% 50%;background-image: linear-gradient(180deg ,rgb(194, 159, 62), rgb(218, 174, 30), rgb(134, 88, 35));
+    margin-top: 50px;
+}
+
