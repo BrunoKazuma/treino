@@ -7,8 +7,9 @@ body{
     background-image: url('../space.jpg');
 
     background-size: 120% 120%;
-    background-repeat: no-repeat;
+    background-repeat: repeat;
     background-attachment: fixed;
+    
 }
 h1{
    color: rgb(255, 255, 255);
