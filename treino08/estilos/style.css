@@ -1,0 +1,103 @@
+@charset "UTF-8";
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url("https://videosdeti.com.br/wp-content/uploads/2019/01/prog00.png");
+}
+h1{
+    text-align: center;
+    color: rgb(211, 211, 211);
+}
+.principal{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.principal p{
+    font-size: 1.4em;
+    padding-bottom: 10px;
+    text-align: center;
+}
+.principal a{
+    font-size: 1.5em;
+    text-decoration: none;
+    color: rgb(56, 56, 56);
+}
+.principal a:hover{
+    color: black;
+}
+.container01{
+    width: 300px;
+    height: 300px;
+    background-color: rgb(219, 219, 219);
+    border-radius: 15px;
+    margin: 10px;
+    text-align: center;
+
+    animation: down 0.5s ease-in-out;
+
+
+}
+.container02{
+    width: 300px;
+    height: 300px;
+    background-color: rgb(219, 219, 219);
+    border-radius: 15px;
+    margin: 10px;
+    text-align: center;
+
+    animation: down 0.5s ease-in-out;
+
+
+}
+.container03{
+    width: 300px;
+    height: 300px;
+    background-color: rgb(219, 219, 219);
+    border-radius: 15px;
+    margin: 10px;
+    text-align: center;
+
+    animation: down 0.5s ease-in-out;
+}
+.container01 p{
+    margin: 1px 1px 42px 1px;
+}
+.container02 p{
+    margin: 1px 1px 42px 1px;
+}
+.container03 p{
+    margin: 3px 1px 16px 1px;
+}
+.container01,.container02,.container03{
+    border: 2px solid black;
+}
+.container01:hover{
+    animation: up 0.5s ease-in-out forwards;
+}
+.container02:hover{
+    animation: up 0.5s ease-in-out forwards;
+}
+.container03:hover{
+    animation: up 0.5s ease-in-out forwards;
+}
+
+@media (max-width:980px){
+    .principal{
+        display: block;
+        margin: 3vw;
+    }
+}
+@keyframes up{
+    100%{
+        transform: translateY(calc(10px - 40px));
+    }
+}
+@keyframes down{
+    0%{
+        transform: translateY(calc(10px - 40px));
+    }
+    100%{
+        transform: calc((40px));
+    }
+}
