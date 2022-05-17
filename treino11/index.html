@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Posicionamento de Div</title>
+    <style>
+        body{
+            background-image: linear-gradient(180deg, black, rgb(17, 17, 17), rgb(31, 31, 31));
+            background-repeat: no-repeat;
+            font-family: Arial, Helvetica, sans-serif;
+            width: 100vh;
+            height: 100vw;
+        }
+        .box1{
+            background-color: brown;
+        }
+        .box2{
+            background-color: cornflowerblue;
+        }
+        .box3{
+            background-color: rgb(164, 67, 255);
+        }
+        .box4{
+            background-color: cadetblue;
+        }
+        .container{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            align-items: center;
+            align-content: space-between;
+
+        }
+        .box1,.box2,.box3,.box4{
+            height: 150px;
+            width: 150px;
+            text-align: center;
+            font-size: 40px;
+            border-radius: 15px;
+        }
+        h1{
+        text-align: center;
+        margin-top: 50px;
+        font-size: 2em;
+        color: blue;
+        }
+    </style>
+</head>
+<body>
+    <main class="container">
+        <div class="box1">
+            1
+        </div>
+        <div class="box2">
+            2
+        </div>
+        <div class="box3">
+            3
+        </div>
+        <div class="box4">
+            4
+        </div>
+    </main>
+    <section>
+        <h1>Teste</h1>
+    </section>
+</body>
+</html>

@@ -19,8 +19,11 @@ header img{
     margin-left: 105px;
     margin-top: 20px;
 }
-header #nav nav{
-    float: right;
+header #nav{
+    flex-direction: row;
+    display:flex;
+    justify-content: flex-end;
+    margin-right: 30px;
 }
 header #nav nav a{
     padding: 5px;
